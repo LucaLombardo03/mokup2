@@ -1,0 +1,26 @@
+﻿<Window x:Class="mokup2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:mokup2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="404.667" Width="578.667">
+    <Grid Background="#FFFF6800">
+        <Label Content="NUMBER GENERATOR" HorizontalAlignment="Left" Height="34" Margin="30,37,0,0" VerticalAlignment="Top" Width="239" FontWeight="Bold" FontFamily="Arial Black" FontSize="18"/>
+        <TextBox Name="txtNum1" IsReadOnly="True" HorizontalAlignment="Left" Height="27" Margin="71,105,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="113"/>
+        <TextBox Name="txtNum2" IsReadOnly="True" HorizontalAlignment="Left" Height="27" Margin="71,153,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="113"/>
+        <CheckBox Name="checkbox" Content="Enabled" HorizontalAlignment="Left" Height="29" Margin="306,37,0,0" VerticalAlignment="Top" Width="114" Checked="checkbox_Checked" FontSize="16"/>
+        <Slider Name="sldNum1" IsEnabled="False" HorizontalAlignment="Left" Height="38" Margin="233,105,0,0" VerticalAlignment="Top" Width="289" ValueChanged="sldNum1_ValueChanged"/>
+        <Slider Name="sldNum2" IsEnabled="False" HorizontalAlignment="Left" Height="38" Margin="233,153,0,0" VerticalAlignment="Top" Width="289" ValueChanged="sldNum2_ValueChanged"/>
+        <Label Content="Somma" HorizontalAlignment="Left" Height="38" Margin="36,234,0,0" VerticalAlignment="Top" Width="114" FontSize="14"/>
+        <Label Content="Sottrazione" HorizontalAlignment="Left" Height="38" Margin="36,277,0,0" VerticalAlignment="Top" Width="114" FontSize="14"/>
+        <Label Content="Moltiplicazione" HorizontalAlignment="Left" Height="38" Margin="306,234,0,0" VerticalAlignment="Top" Width="114" FontSize="14"/>
+        <Label Content="Divisione" HorizontalAlignment="Left" Height="38" Margin="306,277,0,0" VerticalAlignment="Top" Width="114" FontSize="14"/>
+        <TextBox Name="txtSomma" IsReadOnly="True" HorizontalAlignment="Left" Height="38" Margin="155,234,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="114"/>
+        <TextBox Name="txtSottrazione" IsReadOnly="True" HorizontalAlignment="Left" Height="38" Margin="155,277,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="114"/>
+        <TextBox Name="txtMoltiplicazione" IsReadOnly="True" HorizontalAlignment="Left" Height="38" Margin="425,234,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="114"/>
+        <TextBox Name="txtDivisione" IsReadOnly="True" HorizontalAlignment="Left" Height="38" Margin="425,277,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="114"/>
+
+    </Grid>
+</Window>
